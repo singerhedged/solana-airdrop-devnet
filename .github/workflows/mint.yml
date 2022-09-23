@@ -2,7 +2,7 @@ name: mint
 
 on:
   schedule:
-    - cron: '0 0,12 * * *' # 每天执行两遍，0点 12点
+    - cron: '0 0,6,12,15,18 * * *' 
 
 jobs:
   request:
