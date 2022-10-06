@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        network: ["testnet", "devnet"]
+        network: ["devnet"]
     steps:
       - uses: actions/checkout@v2
       - name: Detect package manager
